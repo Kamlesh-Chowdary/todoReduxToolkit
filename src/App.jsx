@@ -1,9 +1,11 @@
+import TodoForm from "./components/TodoForm";
+import TodoItem from "./components/TodoItem";
+
 function App() {
   return (
     <>
-      <h1 className="text-3xl font-bold text-center p-10 underline ">
-        Hello world!
-      </h1>
+      <TodoForm />
+      <TodoItem />
     </>
   );
 }
